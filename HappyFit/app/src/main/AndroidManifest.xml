@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.happyfit">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CrossFitActivity"></activity>
+        <activity android:name=".FullBodyWorkoutActivity" />
+        <activity android:name=".ZumbaActivity" />
+        <activity
+            android:name=".CardioActivity"
+            android:exported="true" />
+        <activity android:name=".ExerciseActivity" />
+        <activity android:name=".DinnerActivity" />
+        <activity android:name=".LunchActivity" />
+        <activity
+            android:name=".BreakfastActivity"
+             />
+        <activity android:name=".DietProgram" />
+        <activity
+            android:name=".ProfilePage"
+             />
+        <activity
+            android:name=".ForumActivity"
+             />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name=".CommonActivity"
+             />
+        <activity
+            android:name=".PowerActivity"
+             />
+        <activity android:name=".SeperateTraining" />
+        <activity
+            android:name=".TrainingActivity"
+             />
+
+        <activity
+            android:name=".LatestActivity"
+            android:label="@string/app_name"
+             />
+
+
+        <activity
+            android:name=".Friends"
+             />
+        <activity
+            android:name=".Rewards"
+            >
+
+        </activity>
+        <activity
+            android:name=".Login2Activity" android:exported="true"
+
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
